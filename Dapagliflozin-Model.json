@@ -1226,17 +1226,17 @@
           "Percentile": 0.0,
           "DistributionMetaData": [
             {
-              "Mean": 1E-14,
+              "Mean": 1e-14,
               "Deviation": 1.6,
               "Distribution": "LogNormal"
             },
             {
-              "Mean": 1.915059E-05,
+              "Mean": 1.915059e-05,
               "Deviation": 1.6,
               "Distribution": "LogNormal"
             },
             {
-              "Mean": 5.486795E-05,
+              "Mean": 5.486795e-05,
               "Deviation": 1.6,
               "Distribution": "LogNormal"
             },
@@ -1355,17 +1355,17 @@
           "Points": [
             {
               "X": 0.0,
-              "Y": 1E-14,
+              "Y": 1e-14,
               "RestartSolver": false
             },
             {
               "X": 0.08333334,
-              "Y": 1.915059E-05,
+              "Y": 1.915059e-05,
               "RestartSolver": false
             },
             {
               "X": 0.1666667,
-              "Y": 5.486795E-05,
+              "Y": 5.486795e-05,
               "RestartSolver": false
             },
             {
@@ -2048,7 +2048,7 @@
           "Parameters": [
             {
               "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 3.9684694792E-05,
+              "Value": 3.9684694792e-05,
               "Unit": "cm/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
@@ -2945,7 +2945,77 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "IV 0.08 mg (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "IV 0.08 mg (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Boulton 2013 - 14C-dapagliflozin iv - Dapagliflozin - IV - 0.08 mg - Plasma - agg. (n=7)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Boulton 2013 - 14C-dapagliflozin iv - Dapagliflozin - IV - 0.08 mg - Plasma - agg. (n=7)|Time",
+              "Y": "Boulton 2013 - 14C-dapagliflozin iv - Dapagliflozin - IV - 0.08 mg - Plasma - agg. (n=7)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "IV 0.08 mg (perm) (log)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "IV 0.08 mg (perm)",
+          "OriginText": "Dapagliflozin\nIV 0.08 mg (perm)\n2019-08-05 17:52"
+        }
+      ]
     },
     {
       "Name": "PO SD 10 mg (perm)",
@@ -3141,7 +3211,393 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.05,
+              "Max": 90.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Komoroski 2009 - MAD 10 mg (day 1) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 10 mg (day 1) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 10 mg (day 1) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#808080",
+                "LegendIndex": 10,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Boulton 2013 - Dapagliflozin po - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=7)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Boulton 2013 - Dapagliflozin po - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=7)|Time",
+              "Y": "Boulton 2013 - Dapagliflozin po - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=7)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Imamura 2013 - Control (Perpetrator Placebo) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=22)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Imamura 2013 - Control (Perpetrator Placebo) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=22)|Time",
+              "Y": "Imamura 2013 - Control (Perpetrator Placebo) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=22)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "PO SD 10 mg (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 10 mg (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kasichayanula 2011a - fasted - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=14)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kasichayanula 2011a - fasted - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=14)|Time",
+              "Y": "Kasichayanula 2011a - fasted - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Kasichayanula 2013a - Study 1: Control (Perpetrator Placebo) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=14)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kasichayanula 2013a - Study 1: Control (Perpetrator Placebo) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=14)|Time",
+              "Y": "Kasichayanula 2013a - Study 1: Control (Perpetrator Placebo) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Kasichayanula 2013a - Study 2: Control (Perpetrator Placebo) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=16)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kasichayanula 2013a - Study 2: Control (Perpetrator Placebo) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=16)|Time",
+              "Y": "Kasichayanula 2013a - Study 2: Control (Perpetrator Placebo) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Vakkalagadda 2016 - Dapagliflozin - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=42)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Vakkalagadda 2016 - Dapagliflozin - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=42)|Time",
+              "Y": "Vakkalagadda 2016 - Dapagliflozin - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=42)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#C000C0",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - SAD 10 mg - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - SAD 10 mg - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - SAD 10 mg - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#00FF00",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Kasichayanula 2011c - Healthy Volunteers - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kasichayanula 2011c - Healthy Volunteers - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Kasichayanula 2011c - Healthy Volunteers - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#C04000",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 10 mg (perm) (log)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO SD 10 mg (perm)",
+          "OriginText": "Dapagliflozin\nPO SD 10 mg (perm)\n2019-08-06 11:22"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 90.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 10 mg (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 10 mg (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Boulton 2013 - Dapagliflozin po - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=7)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Boulton 2013 - Dapagliflozin po - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=7)|Time",
+              "Y": "Boulton 2013 - Dapagliflozin po - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=7)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Imamura 2013 - Control (Perpetrator Placebo) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=22)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Imamura 2013 - Control (Perpetrator Placebo) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=22)|Time",
+              "Y": "Imamura 2013 - Control (Perpetrator Placebo) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=22)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Kasichayanula 2011a - fasted - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=14)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kasichayanula 2011a - fasted - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=14)|Time",
+              "Y": "Kasichayanula 2011a - fasted - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Kasichayanula 2013a - Study 1: Control (Perpetrator Placebo) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=14)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kasichayanula 2013a - Study 1: Control (Perpetrator Placebo) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=14)|Time",
+              "Y": "Kasichayanula 2013a - Study 1: Control (Perpetrator Placebo) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Kasichayanula 2013a - Study 2: Control (Perpetrator Placebo) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=16)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kasichayanula 2013a - Study 2: Control (Perpetrator Placebo) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=16)|Time",
+              "Y": "Kasichayanula 2013a - Study 2: Control (Perpetrator Placebo) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Vakkalagadda 2016 - Dapagliflozin - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=42)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Vakkalagadda 2016 - Dapagliflozin - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=42)|Time",
+              "Y": "Vakkalagadda 2016 - Dapagliflozin - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=42)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#C000C0",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Kasichayanula 2011c - Healthy Volunteers - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kasichayanula 2011c - Healthy Volunteers - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Kasichayanula 2011c - Healthy Volunteers - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#C04000",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - SAD 10 mg - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - SAD 10 mg - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - SAD 10 mg - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#00FF00",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - MAD 10 mg (day 1) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 10 mg (day 1) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 10 mg (day 1) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#808080",
+                "LegendIndex": 10,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 10 mg (perm) (lin)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO SD 10 mg (perm)",
+          "OriginText": "Dapagliflozin\nPO SD 10 mg (perm)\n2019-08-06 11:22"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "%",
+              "Dimension": "Fraction",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Komoroski 2009 - SAD 10 mg (Urine) - Dapagliflozin - PO - 10 mg - Urine - agg. (n=6)-Dapagliflozin-Kidney-Urine-ArithmeticMean",
+              "X": "Komoroski 2009 - SAD 10 mg (Urine) - Dapagliflozin - PO - 10 mg - Urine - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - SAD 10 mg (Urine) - Dapagliflozin - PO - 10 mg - Urine - agg. (n=6)|ObservedData|Kidney|Urine|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "PO SD 10 mg (perm)-Dapagliflozin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "PO SD 10 mg (perm)|Organism|Kidney|Urine|Dapagliflozin|Fraction excreted to urine",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1,
+                "LineStyle": "Dash"
+              }
+            }
+          ],
+          "Name": "PO SD 10 mg (perm) (urinary excretion)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Dapagliflozin\nPO SD 10 mg (perm)\n2019-08-26 09:55"
+        }
+      ]
     },
     {
       "Name": "PO SD 50 mg (perm)",
@@ -3343,7 +3799,357 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.05,
+              "Max": 72.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Dimensionless",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Komoroski 2009 - SAD 50 mg - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - SAD 50 mg - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - SAD 50 mg - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - MAD 50 mg (day 1) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 50 mg (day 1) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 50 mg (day 1) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Kasichayanula 2013b - Healthy subjects with normal kidney function - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=8)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kasichayanula 2013b - Healthy subjects with normal kidney function - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Kasichayanula 2013b - Healthy subjects with normal kidney function - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "PO SD 50 mg (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 50 mg (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kasichayanula 2011b - Study 1: 50 mg Control (Perpetrator Placebo) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=24)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kasichayanula 2011b - Study 1: 50 mg Control (Perpetrator Placebo) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=24)|Time",
+              "Y": "Kasichayanula 2011b - Study 1: 50 mg Control (Perpetrator Placebo) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 50 mg (perm) (log)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO SD 50 mg (perm)",
+          "OriginText": "Dapagliflozin\nPO SD 50 mg (perm)\n2019-08-06 08:59"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 72.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Komoroski 2009 - MAD 50 mg (day 1) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 50 mg (day 1) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 50 mg (day 1) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Kasichayanula 2013b - Healthy subjects with normal kidney function - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=8)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kasichayanula 2013b - Healthy subjects with normal kidney function - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Kasichayanula 2013b - Healthy subjects with normal kidney function - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - SAD 50 mg - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - SAD 50 mg - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - SAD 50 mg - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "PO SD 50 mg (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 50 mg (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kasichayanula 2011b - Study 1: 50 mg Control (Perpetrator Placebo) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=24)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kasichayanula 2011b - Study 1: 50 mg Control (Perpetrator Placebo) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=24)|Time",
+              "Y": "Kasichayanula 2011b - Study 1: 50 mg Control (Perpetrator Placebo) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 50 mg (perm) (lin)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO SD 50 mg (perm)",
+          "OriginText": "Dapagliflozin\nPO SD 50 mg (perm)\n2019-08-06 08:59"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "%",
+              "Dimension": "Fraction",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kasichayanula 2008 - Mass Balance of 14C-dapagliflozin oxid Metab - Dapagliflozin oxidative metabolites - PO - 50 mg - Fraction - agg. (n=6)-Dapagliflozin oxidative metabolites-Undefined-Undefined-ArithmeticMean",
+              "X": "Kasichayanula 2008 - Mass Balance of 14C-dapagliflozin oxid Metab - Dapagliflozin oxidative metabolites - PO - 50 mg - Fraction - agg. (n=6)|Time",
+              "Y": "Kasichayanula 2008 - Mass Balance of 14C-dapagliflozin oxid Metab - Dapagliflozin oxidative metabolites - PO - 50 mg - Fraction - agg. (n=6)|ObservedData|Undefined|Undefined|Dapagliflozin oxidative metabolites|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Kasichayanula 2008 - Mass Balance of 14C-dapagliflozin 3OG Gluc (incl. unchanged feces exret.) - Dapagliflozin-3-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)-Dapagliflozin-3-O-glucuronide-Undefined-Undefined-ArithmeticMean",
+              "X": "Kasichayanula 2008 - Mass Balance of 14C-dapagliflozin 3OG Gluc (incl. unchanged feces exret.) - Dapagliflozin-3-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)|Time",
+              "Y": "Kasichayanula 2008 - Mass Balance of 14C-dapagliflozin 3OG Gluc (incl. unchanged feces exret.) - Dapagliflozin-3-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)|ObservedData|Undefined|Undefined|Dapagliflozin-3-O-glucuronide|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "PO SD 50 mg (perm)-Dapagliflozin-Hepatic-CYP-Optimized Metabolite-Organism-Total fraction of dose-Dapagliflozin",
+              "X": "Time",
+              "Y": "PO SD 50 mg (perm)|Organism|Dapagliflozin-Hepatic-CYP-Optimized Metabolite|Total fraction of dose-Dapagliflozin",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "PO SD 50 mg (perm)-Dapagliflozin-UGT1A9-Optimized Metabolite-Organism-Total fraction of dose-Dapagliflozin",
+              "X": "Time",
+              "Y": "PO SD 50 mg (perm)|Organism|Dapagliflozin-UGT1A9-Optimized Metabolite|Total fraction of dose-Dapagliflozin",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Kasichayanula 2008 - Mass Balance of 14C-dapagliflozin 2OG Gluc (incl. unchanged feces exret.) - Dapagliflozin-2-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)-Dapagliflozin-2-O-glucuronide-Undefined-Undefined-ArithmeticMean",
+              "X": "Kasichayanula 2008 - Mass Balance of 14C-dapagliflozin 2OG Gluc (incl. unchanged feces exret.) - Dapagliflozin-2-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)|Time",
+              "Y": "Kasichayanula 2008 - Mass Balance of 14C-dapagliflozin 2OG Gluc (incl. unchanged feces exret.) - Dapagliflozin-2-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)|ObservedData|Undefined|Undefined|Dapagliflozin-2-O-glucuronide|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "PO SD 50 mg (perm)-Dapagliflozin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "PO SD 50 mg (perm)|Organism|Kidney|Urine|Dapagliflozin|Fraction excreted to urine",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "PO SD 50 mg (perm)-Dapagliflozin-UGT2B7-Optimized Metabolite-Organism-Total fraction of dose-Dapagliflozin",
+              "X": "Time",
+              "Y": "PO SD 50 mg (perm)|Organism|Dapagliflozin-UGT2B7-Optimized Metabolite|Total fraction of dose-Dapagliflozin",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Kasichayanula 2008 - Mass Balance of 14C-dapagliflozin Urine - Dapagliflozin - PO - 50 mg - Urine - agg. (n=6)-Dapagliflozin-Kidney-Urine-ArithmeticMean",
+              "X": "Kasichayanula 2008 - Mass Balance of 14C-dapagliflozin Urine - Dapagliflozin - PO - 50 mg - Urine - agg. (n=6)|Time",
+              "Y": "Kasichayanula 2008 - Mass Balance of 14C-dapagliflozin Urine - Dapagliflozin - PO - 50 mg - Urine - agg. (n=6)|ObservedData|Kidney|Urine|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 50 mg (perm) (fraction excreted/metabolized)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Dapagliflozin\nPO SD 50 mg (perm)\n2019-08-26 10:09"
+        }
+      ]
     },
     {
       "Name": "PO SD 2.5 mg (perm)",
@@ -3497,7 +4303,239 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.05,
+              "Max": 24.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 2.5 mg (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 2.5 mg (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - MAD 2.5 mg (day 1) - Dapagliflozin - PO - 2.5 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 2.5 mg (day 1) - Dapagliflozin - PO - 2.5 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 2.5 mg (day 1) - Dapagliflozin - PO - 2.5 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - SAD 2.5 mg - Dapagliflozin - PO - 2.5 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - SAD 2.5 mg - Dapagliflozin - PO - 2.5 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - SAD 2.5 mg - Dapagliflozin - PO - 2.5 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 2.5 mg (perm) (log)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO SD 2.5 mg (perm)",
+          "OriginText": "Dapagliflozin\nPO SD 2.5 mg (perm)\n2019-08-06 11:20"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 24.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Komoroski 2009 - SAD 2.5 mg - Dapagliflozin - PO - 2.5 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - SAD 2.5 mg - Dapagliflozin - PO - 2.5 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - SAD 2.5 mg - Dapagliflozin - PO - 2.5 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - MAD 2.5 mg (day 1) - Dapagliflozin - PO - 2.5 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 2.5 mg (day 1) - Dapagliflozin - PO - 2.5 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 2.5 mg (day 1) - Dapagliflozin - PO - 2.5 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "PO SD 2.5 mg (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 2.5 mg (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            }
+          ],
+          "Name": "PO SD 2.5 mg (perm) (lin)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO SD 2.5 mg (perm)",
+          "OriginText": "Dapagliflozin\nPO SD 2.5 mg (perm)\n2019-08-06 11:20"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "%",
+              "Dimension": "Fraction",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 2.5 mg (perm)-Dapagliflozin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "PO SD 2.5 mg (perm)|Organism|Kidney|Urine|Dapagliflozin|Fraction excreted to urine",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - SAD 2.5 mg (Urine) - Dapagliflozin - PO - 2.5 mg - Urine - agg. (n=6)-Dapagliflozin-Kidney-Urine-ArithmeticMean",
+              "X": "Komoroski 2009 - SAD 2.5 mg (Urine) - Dapagliflozin - PO - 2.5 mg - Urine - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - SAD 2.5 mg (Urine) - Dapagliflozin - PO - 2.5 mg - Urine - agg. (n=6)|ObservedData|Kidney|Urine|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 2.5 mg (perm) (urinary excretion)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Dapagliflozin\nPO SD 2.5 mg (perm)\n2019-08-26 10:00"
+        }
+      ]
     },
     {
       "Name": "PO SD 5 mg (perm)",
@@ -3645,7 +4683,217 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.05,
+              "Max": 24.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 5 mg (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 5 mg (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - SAD 5 mg - Dapagliflozin - PO - 5 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - SAD 5 mg - Dapagliflozin - PO - 5 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - SAD 5 mg - Dapagliflozin - PO - 5 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 5 mg (perm) (log)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO SD 5 mg (perm)",
+          "OriginText": "Dapagliflozin\nPO SD 5 mg (perm)\n2019-08-06 11:20"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 24.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 5 mg (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 5 mg (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - SAD 5 mg - Dapagliflozin - PO - 5 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - SAD 5 mg - Dapagliflozin - PO - 5 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - SAD 5 mg - Dapagliflozin - PO - 5 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 5 mg (perm) (lin)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO SD 5 mg (perm)",
+          "OriginText": "Dapagliflozin\nPO SD 5 mg (perm)\n2019-08-06 11:20"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "%",
+              "Dimension": "Fraction",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 5 mg (perm)-Dapagliflozin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "PO SD 5 mg (perm)|Organism|Kidney|Urine|Dapagliflozin|Fraction excreted to urine",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - SAD 5 mg (Urine) - Dapagliflozin - PO - 5 mg - Urine - agg. (n=6)-Dapagliflozin-Kidney-Urine-ArithmeticMean",
+              "X": "Komoroski 2009 - SAD 5 mg (Urine) - Dapagliflozin - PO - 5 mg - Urine - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - SAD 5 mg (Urine) - Dapagliflozin - PO - 5 mg - Urine - agg. (n=6)|ObservedData|Kidney|Urine|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 5 mg (perm) (urinary excretion)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Dapagliflozin\nPO SD 5 mg (perm)\n2019-08-26 10:06"
+        }
+      ]
     },
     {
       "Name": "PO SD 20 mg (perm)",
@@ -3817,7 +5065,305 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.05,
+              "Max": 72.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Komoroski 2009 - MAD 20 mg (day 1) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 20 mg (day 1) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 20 mg (day 1) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Kasichayanula 2011b - Study 2: 20 mg Control (Perpetrator Placebo) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=18)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kasichayanula 2011b - Study 2: 20 mg Control (Perpetrator Placebo) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=18)|Time",
+              "Y": "Kasichayanula 2011b - Study 2: 20 mg Control (Perpetrator Placebo) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Kasichayanula 2011b - Study 3: 20 mg Control (Perpetrator Placebo) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=18)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kasichayanula 2011b - Study 3: 20 mg Control (Perpetrator Placebo) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=18)|Time",
+              "Y": "Kasichayanula 2011b - Study 3: 20 mg Control (Perpetrator Placebo) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - SAD 20 mg - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - SAD 20 mg - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - SAD 20 mg - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Kasichayanula 2012 - Study 1: Control (Perpetrator Placebo) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=24)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kasichayanula 2012 - Study 1: Control (Perpetrator Placebo) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=24)|Time",
+              "Y": "Kasichayanula 2012 - Study 1: Control (Perpetrator Placebo) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "PO SD 20 mg (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 20 mg (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            }
+          ],
+          "Name": "PO SD 20 mg (perm) (log)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO SD 20 mg (perm)",
+          "OriginText": "Dapagliflozin\nPO SD 20 mg (perm)\n2019-08-06 11:24"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 72.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 20 mg (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 20 mg (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kasichayanula 2011b - Study 2: 20 mg Control (Perpetrator Placebo) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=18)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kasichayanula 2011b - Study 2: 20 mg Control (Perpetrator Placebo) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=18)|Time",
+              "Y": "Kasichayanula 2011b - Study 2: 20 mg Control (Perpetrator Placebo) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - MAD 20 mg (day 1) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 20 mg (day 1) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 20 mg (day 1) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - SAD 20 mg - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - SAD 20 mg - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - SAD 20 mg - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Kasichayanula 2012 - Study 1: Control (Perpetrator Placebo) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=24)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kasichayanula 2012 - Study 1: Control (Perpetrator Placebo) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=24)|Time",
+              "Y": "Kasichayanula 2012 - Study 1: Control (Perpetrator Placebo) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Kasichayanula 2011b - Study 3: 20 mg Control (Perpetrator Placebo) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=18)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kasichayanula 2011b - Study 3: 20 mg Control (Perpetrator Placebo) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=18)|Time",
+              "Y": "Kasichayanula 2011b - Study 3: 20 mg Control (Perpetrator Placebo) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 20 mg (perm) (lin)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO SD 20 mg (perm)",
+          "OriginText": "Dapagliflozin\nPO SD 20 mg (perm)\n2019-08-06 11:24"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 20 mg (perm)-Dapagliflozin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "PO SD 20 mg (perm)|Organism|Kidney|Urine|Dapagliflozin|Fraction excreted to urine",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - SAD 20 mg (Urine) - Dapagliflozin - PO - 20 mg - Urine - agg. (n=6)-Dapagliflozin-Kidney-Urine-ArithmeticMean",
+              "X": "Komoroski 2009 - SAD 20 mg (Urine) - Dapagliflozin - PO - 20 mg - Urine - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - SAD 20 mg (Urine) - Dapagliflozin - PO - 20 mg - Urine - agg. (n=6)|ObservedData|Kidney|Urine|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 2.5 mg (perm) (urinary excretion)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Dapagliflozin\nPO SD 20 mg (perm)\n2019-08-26 10:02"
+        }
+      ]
     },
     {
       "Name": "PO SD 100 mg (perm)",
@@ -3971,7 +5517,239 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.05,
+              "Max": 24.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 100 mg (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 100 mg (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - SAD 100 mg - Dapagliflozin - PO - 100 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - SAD 100 mg - Dapagliflozin - PO - 100 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - SAD 100 mg - Dapagliflozin - PO - 100 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - MAD 100 mg (day 1) - Dapagliflozin - PO - 100 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 100 mg (day 1) - Dapagliflozin - PO - 100 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 100 mg (day 1) - Dapagliflozin - PO - 100 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 100 mg (perm) (log)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO SD 100 mg (perm)",
+          "OriginText": "Dapagliflozin\nPO SD 100 mg (perm)\n2019-08-26 09:58"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 24.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 100 mg (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 100 mg (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - SAD 100 mg - Dapagliflozin - PO - 100 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - SAD 100 mg - Dapagliflozin - PO - 100 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - SAD 100 mg - Dapagliflozin - PO - 100 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - MAD 100 mg (day 1) - Dapagliflozin - PO - 100 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 100 mg (day 1) - Dapagliflozin - PO - 100 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 100 mg (day 1) - Dapagliflozin - PO - 100 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 100 mg (perm) (lin)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO SD 100 mg (perm)",
+          "OriginText": "Dapagliflozin\nPO SD 100 mg (perm)\n2019-08-26 09:58"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "%",
+              "Dimension": "Fraction",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 100 mg (perm)-Dapagliflozin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "PO SD 100 mg (perm)|Organism|Kidney|Urine|Dapagliflozin|Fraction excreted to urine",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - SAD 100 mg (Urine) - Dapagliflozin - PO - 100 mg - Urine - agg. (n=6)-Dapagliflozin-Kidney-Urine-ArithmeticMean",
+              "X": "Komoroski 2009 - SAD 100 mg (Urine) - Dapagliflozin - PO - 100 mg - Urine - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - SAD 100 mg (Urine) - Dapagliflozin - PO - 100 mg - Urine - agg. (n=6)|ObservedData|Kidney|Urine|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 100 mg (perm) (urinary excretion)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Dapagliflozin\nPO SD 100 mg (perm)\n2019-08-26 09:58"
+        }
+      ]
     },
     {
       "Name": "PO SD 250 mg (perm)",
@@ -4119,7 +5897,217 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.05,
+              "Max": 24.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 250 mg (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 250 mg (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - SAD 250 mg fasted - Dapagliflozin - PO - 250 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - SAD 250 mg fasted - Dapagliflozin - PO - 250 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - SAD 250 mg fasted - Dapagliflozin - PO - 250 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 250 mg (perm) (log)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO SD 250 mg (perm)",
+          "OriginText": "Dapagliflozin\nPO SD 250 mg (perm)\n2019-08-06 11:26"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 24.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 250 mg (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 250 mg (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - SAD 250 mg fasted - Dapagliflozin - PO - 250 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - SAD 250 mg fasted - Dapagliflozin - PO - 250 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - SAD 250 mg fasted - Dapagliflozin - PO - 250 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 250 mg (perm) (lin)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO SD 250 mg (perm)",
+          "OriginText": "Dapagliflozin\nPO SD 250 mg (perm)\n2019-08-06 11:26"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "%",
+              "Dimension": "Fraction",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Komoroski 2009 - SAD 250 mg fasted (Urine) - Dapagliflozin - PO - 250 mg - Urine - agg. (n=6)-Dapagliflozin-Kidney-Urine-ArithmeticMean",
+              "X": "Komoroski 2009 - SAD 250 mg fasted (Urine) - Dapagliflozin - PO - 250 mg - Urine - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - SAD 250 mg fasted (Urine) - Dapagliflozin - PO - 250 mg - Urine - agg. (n=6)|ObservedData|Kidney|Urine|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "PO SD 250 mg (perm)-Dapagliflozin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "PO SD 250 mg (perm)|Organism|Kidney|Urine|Dapagliflozin|Fraction excreted to urine",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1,
+                "LineStyle": "Dash"
+              }
+            }
+          ],
+          "Name": "PO SD 250 mg (perm) (urinary excretion)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Dapagliflozin\nPO SD 250 mg (perm)\n2019-08-26 10:04"
+        }
+      ]
     },
     {
       "Name": "PO SD 500 mg (perm)",
@@ -4267,7 +6255,217 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.05,
+              "Max": 24.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 500 mg (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 500 mg (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - SAD 500 mg - Dapagliflozin - PO - 500 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - SAD 500 mg - Dapagliflozin - PO - 500 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - SAD 500 mg - Dapagliflozin - PO - 500 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 500 mg (perm) (log)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO SD 500 mg (perm)",
+          "OriginText": "Dapagliflozin\nPO SD 500 mg (perm)\n2019-08-06 11:27"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 24.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 500 mg (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 500 mg (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - SAD 500 mg - Dapagliflozin - PO - 500 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - SAD 500 mg - Dapagliflozin - PO - 500 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - SAD 500 mg - Dapagliflozin - PO - 500 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 500 mg (perm) (lin)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO SD 500 mg (perm)",
+          "OriginText": "Dapagliflozin\nPO SD 500 mg (perm)\n2019-08-06 11:27"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "%",
+              "Dimension": "Fraction",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Komoroski 2009 - SAD 500 mg (Urine) - Dapagliflozin - PO - 500 mg - Urine - agg. (n=6)-Dapagliflozin-Kidney-Urine-ArithmeticMean",
+              "X": "Komoroski 2009 - SAD 500 mg (Urine) - Dapagliflozin - PO - 500 mg - Urine - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - SAD 500 mg (Urine) - Dapagliflozin - PO - 500 mg - Urine - agg. (n=6)|ObservedData|Kidney|Urine|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "PO SD 500 mg (perm)-Dapagliflozin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "PO SD 500 mg (perm)|Organism|Kidney|Urine|Dapagliflozin|Fraction excreted to urine",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1,
+                "LineStyle": "Dash"
+              }
+            }
+          ],
+          "Name": "PO SD 500 mg (perm) (urinary excretion)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Dapagliflozin\nPO SD 500 mg (perm)\n2019-08-26 10:17"
+        }
+      ]
     },
     {
       "Name": "PO SD 5 mg IC tablet (Chang 2015) (perm)",
@@ -4404,7 +6602,145 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 5 mg IC tablet (Chang 2015) (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 5 mg IC tablet (Chang 2015) (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chang 2015 - Study 1 Treatment A (single oral doses) - Dapagliflozin - PO - 5 mg - Plasma - agg. (n=36)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Chang 2015 - Study 1 Treatment A (single oral doses) - Dapagliflozin - PO - 5 mg - Plasma - agg. (n=36)|Time",
+              "Y": "Chang 2015 - Study 1 Treatment A (single oral doses) - Dapagliflozin - PO - 5 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 5 mg IR tablet (perm) (log)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO SD 5 mg IR tablet (perm)",
+          "OriginText": "Dapagliflozin\nPO SD 5 mg IR tablet (perm)\n2019-08-06 14:59"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 5 mg IC tablet (Chang 2015) (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 5 mg IC tablet (Chang 2015) (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chang 2015 - Study 1 Treatment A (single oral doses) - Dapagliflozin - PO - 5 mg - Plasma - agg. (n=36)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Chang 2015 - Study 1 Treatment A (single oral doses) - Dapagliflozin - PO - 5 mg - Plasma - agg. (n=36)|Time",
+              "Y": "Chang 2015 - Study 1 Treatment A (single oral doses) - Dapagliflozin - PO - 5 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 5 mg IR tablet (perm) (lin)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO SD 5 mg IR tablet (perm)",
+          "OriginText": "Dapagliflozin\nPO SD 5 mg IR tablet (perm)\n2019-08-06 14:59"
+        }
+      ]
     },
     {
       "Name": "PO SD 250 mg fed (perm)",
@@ -4552,7 +6888,155 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Dimensionless",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 250 mg fed (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 250 mg fed (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - SAD 250 mg fed - Dapagliflozin - PO - 250 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - SAD 250 mg fed - Dapagliflozin - PO - 250 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - SAD 250 mg fed - Dapagliflozin - PO - 250 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 250 mg fed (perm) (log)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Dapagliflozin\nPO SD 250 mg fed (perm)\n2019-08-06 14:47"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 250 mg fed (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 250 mg fed (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - SAD 250 mg fed - Dapagliflozin - PO - 250 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - SAD 250 mg fed - Dapagliflozin - PO - 250 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - SAD 250 mg fed - Dapagliflozin - PO - 250 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 250 mg fed (perm) (lin)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO SD 250 mg fed (perm)",
+          "OriginText": "Dapagliflozin\nPO SD 250 mg fed (perm)\n2019-08-06 14:47"
+        }
+      ]
     },
     {
       "Name": "PO SD 10 mg IC tablet (Chang 2015) (perm)",
@@ -4689,7 +7173,145 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 10 mg IC tablet (Chang 2015) (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 10 mg IC tablet (Chang 2015) (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chang 2015 - Study 2 Treatment A (single oral doses) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=36)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Chang 2015 - Study 2 Treatment A (single oral doses) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=36)|Time",
+              "Y": "Chang 2015 - Study 2 Treatment A (single oral doses) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 10 mg IR tablet (perm) (log)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO SD 10 mg IR tablet (perm)",
+          "OriginText": "Dapagliflozin\nPO SD 10 mg IR tablet (perm)\n2019-08-07 13:04"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 10 mg IC tablet (Chang 2015) (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 10 mg IC tablet (Chang 2015) (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chang 2015 - Study 2 Treatment A (single oral doses) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=36)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Chang 2015 - Study 2 Treatment A (single oral doses) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=36)|Time",
+              "Y": "Chang 2015 - Study 2 Treatment A (single oral doses) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 10 mg IR tablet (perm) (lin)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO SD 10 mg IR tablet (perm)",
+          "OriginText": "Dapagliflozin\nPO SD 10 mg IR tablet (perm)\n2019-08-07 13:04"
+        }
+      ]
     },
     {
       "Name": "PO MD 10 mg (perm)",
@@ -4911,7 +7533,167 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO MD 10 mg (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO MD 10 mg (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - MAD 10 mg (day 1) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 10 mg (day 1) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 10 mg (day 1) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - MAD 10 mg (day 7 and day 14) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 10 mg (day 7 and day 14) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 10 mg (day 7 and day 14) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO MD 10 mg (perm) (log)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO MD 10 mg (perm)",
+          "OriginText": "Dapagliflozin\nPO MD 10 mg (perm)\n2019-08-19 17:37"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO MD 10 mg (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO MD 10 mg (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - MAD 10 mg (day 1) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 10 mg (day 1) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 10 mg (day 1) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - MAD 10 mg (day 7 and day 14) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 10 mg (day 7 and day 14) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 10 mg (day 7 and day 14) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO MD 10 mg (perm) (lin)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO MD 10 mg (perm)",
+          "OriginText": "Dapagliflozin\nPO MD 10 mg (perm)\n2019-08-19 17:37"
+        }
+      ]
     },
     {
       "Name": "PO MD 100 mg (perm)",
@@ -5133,7 +7915,167 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO MD 100 mg (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO MD 100 mg (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - MAD 100 mg (day 1) - Dapagliflozin - PO - 100 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 100 mg (day 1) - Dapagliflozin - PO - 100 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 100 mg (day 1) - Dapagliflozin - PO - 100 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - MAD 100 mg (day 7 and day 14) - Dapagliflozin - PO - 100 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 100 mg (day 7 and day 14) - Dapagliflozin - PO - 100 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 100 mg (day 7 and day 14) - Dapagliflozin - PO - 100 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO MD 100 mg (perm) (log)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO MD 100 mg (perm)",
+          "OriginText": "Dapagliflozin\nPO MD 100 mg (perm)\n2019-08-19 17:43"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO MD 100 mg (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO MD 100 mg (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - MAD 100 mg (day 1) - Dapagliflozin - PO - 100 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 100 mg (day 1) - Dapagliflozin - PO - 100 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 100 mg (day 1) - Dapagliflozin - PO - 100 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - MAD 100 mg (day 7 and day 14) - Dapagliflozin - PO - 100 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 100 mg (day 7 and day 14) - Dapagliflozin - PO - 100 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 100 mg (day 7 and day 14) - Dapagliflozin - PO - 100 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO MD 100 mg (perm) (lin)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO MD 100 mg (perm)",
+          "OriginText": "Dapagliflozin\nPO MD 100 mg (perm)\n2019-08-19 17:43"
+        }
+      ]
     },
     {
       "Name": "PO MD 2.5 mg (perm)",
@@ -5355,7 +8297,167 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO MD 2.5 mg (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO MD 2.5 mg (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 4
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - MAD 2.5 mg (day 1) - Dapagliflozin - PO - 2.5 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 2.5 mg (day 1) - Dapagliflozin - PO - 2.5 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 2.5 mg (day 1) - Dapagliflozin - PO - 2.5 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - MAD 2.5 mg (day 7 and day 14) - Dapagliflozin - PO - 2.5 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 2.5 mg (day 7 and day 14) - Dapagliflozin - PO - 2.5 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 2.5 mg (day 7 and day 14) - Dapagliflozin - PO - 2.5 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO MD 2.5 mg (perm) (log)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO MD 2.5 mg (perm)",
+          "OriginText": "Dapagliflozin\nPO MD 2.5 mg (perm)\n2019-08-19 17:44"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO MD 2.5 mg (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO MD 2.5 mg (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - MAD 2.5 mg (day 1) - Dapagliflozin - PO - 2.5 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 2.5 mg (day 1) - Dapagliflozin - PO - 2.5 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 2.5 mg (day 1) - Dapagliflozin - PO - 2.5 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - MAD 2.5 mg (day 7 and day 14) - Dapagliflozin - PO - 2.5 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 2.5 mg (day 7 and day 14) - Dapagliflozin - PO - 2.5 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 2.5 mg (day 7 and day 14) - Dapagliflozin - PO - 2.5 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO MD 2.5 mg (perm) (lin)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO MD 2.5 mg (perm)",
+          "OriginText": "Dapagliflozin\nPO MD 2.5 mg (perm)\n2019-08-19 17:44"
+        }
+      ]
     },
     {
       "Name": "PO MD 20 mg (perm)",
@@ -5577,7 +8679,167 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO MD 20 mg (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO MD 20 mg (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - MAD 20 mg (day 1) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 20 mg (day 1) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 20 mg (day 1) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - MAD 20 mg (day 7 and day 14) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 20 mg (day 7 and day 14) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 20 mg (day 7 and day 14) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO MD 20 mg (perm) (log)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO MD 20 mg (perm)",
+          "OriginText": "Dapagliflozin\nPO MD 20 mg (perm)\n2019-08-19 17:47"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO MD 20 mg (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO MD 20 mg (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - MAD 20 mg (day 1) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 20 mg (day 1) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 20 mg (day 1) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - MAD 20 mg (day 7 and day 14) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 20 mg (day 7 and day 14) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 20 mg (day 7 and day 14) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO MD 20 mg (perm) (lin)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO MD 20 mg (perm)",
+          "OriginText": "Dapagliflozin\nPO MD 20 mg (perm)\n2019-08-19 17:47"
+        }
+      ]
     },
     {
       "Name": "PO MD 50 mg (perm)",
@@ -5799,7 +9061,167 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO MD 50 mg (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO MD 50 mg (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - MAD 50 mg (day 1) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 50 mg (day 1) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 50 mg (day 1) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - MAD 50 mg (day 7 and day 14) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 50 mg (day 7 and day 14) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 50 mg (day 7 and day 14) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO MD 50 mg (perm) (log)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO MD 20 mg (perm)",
+          "OriginText": "Dapagliflozin\nPO MD 50 mg (perm)\n2019-08-19 17:46"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO MD 50 mg (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO MD 50 mg (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - MAD 50 mg (day 1) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 50 mg (day 1) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 50 mg (day 1) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Komoroski 2009 - MAD 50 mg (day 7 and day 14) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Komoroski 2009 - MAD 50 mg (day 7 and day 14) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Komoroski 2009 - MAD 50 mg (day 7 and day 14) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO MD 50 mg (perm) (lin)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "PO MD 50 mg (perm)",
+          "OriginText": "Dapagliflozin\nPO MD 50 mg (perm)\n2019-08-19 17:46"
+        }
+      ]
     }
   ],
   "ParameterIdentifications": [
@@ -5830,12 +9252,12 @@
             },
             {
               "Name": "xtol",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Type": "Double"
             },
             {
               "Name": "gtol",
-              "Value": 1E-10,
+              "Value": 1e-10,
               "Type": "Double"
             },
             {
@@ -5855,7 +9277,7 @@
             },
             {
               "Name": "epsfcn",
-              "Value": 1E-09,
+              "Value": 1e-09,
               "Type": "Double"
             }
           ]
@@ -6106,13 +9528,13 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 4E-05,
+              "Value": 4e-05,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
@@ -6287,7 +9709,7 @@
             },
             {
               "Name": "MinValue",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
@@ -6948,12 +10370,12 @@
             },
             {
               "Name": "xtol",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Type": "Double"
             },
             {
               "Name": "gtol",
-              "Value": 1E-10,
+              "Value": 1e-10,
               "Type": "Double"
             },
             {
@@ -6973,7 +10395,7 @@
             },
             {
               "Name": "epsfcn",
-              "Value": 1E-09,
+              "Value": 1e-09,
               "Type": "Double"
             }
           ]
@@ -7189,13 +10611,13 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 4E-05,
+              "Value": 4e-05,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
@@ -7370,7 +10792,7 @@
             },
             {
               "Name": "MinValue",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
@@ -7951,12 +11373,12 @@
             },
             {
               "Name": "xtol",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Type": "Double"
             },
             {
               "Name": "gtol",
-              "Value": 1E-10,
+              "Value": 1e-10,
               "Type": "Double"
             },
             {
@@ -7976,7 +11398,7 @@
             },
             {
               "Name": "epsfcn",
-              "Value": 1E-09,
+              "Value": 1e-09,
               "Type": "Double"
             }
           ]
@@ -8192,13 +11614,13 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 4E-05,
+              "Value": 4e-05,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
@@ -8373,7 +11795,7 @@
             },
             {
               "Name": "MinValue",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
@@ -8919,12 +12341,12 @@
             },
             {
               "Name": "xtol",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Type": "Double"
             },
             {
               "Name": "gtol",
-              "Value": 1E-10,
+              "Value": 1e-10,
               "Type": "Double"
             },
             {
@@ -8944,7 +12366,7 @@
             },
             {
               "Name": "epsfcn",
-              "Value": 1E-09,
+              "Value": 1e-09,
               "Type": "Double"
             }
           ]
@@ -9160,13 +12582,13 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 4E-05,
+              "Value": 4e-05,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
@@ -9342,7 +12764,7 @@
             },
             {
               "Name": "MinValue",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
@@ -9925,12 +13347,12 @@
             },
             {
               "Name": "xtol",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Type": "Double"
             },
             {
               "Name": "gtol",
-              "Value": 1E-10,
+              "Value": 1e-10,
               "Type": "Double"
             },
             {
@@ -9950,7 +13372,7 @@
             },
             {
               "Name": "epsfcn",
-              "Value": 1E-09,
+              "Value": 1e-09,
               "Type": "Double"
             }
           ]
@@ -10169,13 +13591,13 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 4E-05,
+              "Value": 4e-05,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
@@ -10350,7 +13772,7 @@
             },
             {
               "Name": "MinValue",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
@@ -11227,7 +14649,7 @@
                 0.00010576029,
                 0.00059295347,
                 0.00059468864,
-                3.3849257E-05
+                3.3849257e-05
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
@@ -14324,11 +17746,11 @@
             0.0002779303,
             0.0002227543,
             0.0001183659,
-            6.491678E-05,
-            3.79269E-05,
-            1.8918548E-05,
-            1.832981E-05,
-            1.832981E-05
+            6.491678e-05,
+            3.79269e-05,
+            1.8918548e-05,
+            1.832981e-05,
+            1.832981e-05
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
