@@ -1,6 +1,7 @@
 {
   "Name": "Dapagliflozin-Model",
   "Version": 81,
+  "ApplicationName": "PK-Sim",
   "ExpressionProfiles": [
     {
       "Type": "Enzyme",
@@ -22636,6 +22637,5 @@
         "PI full  (perm) MSV"
       ]
     }
-  ],
-  "ApplicationName": "PK-Sim"
+  ]
 }
