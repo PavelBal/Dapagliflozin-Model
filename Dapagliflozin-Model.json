@@ -2210,6 +2210,46 @@
           "Unit": "g/mol",
           "ValueOrigin": {}
         }
+      ],
+      "OverwriteParameterSets": [
+        {
+          "Name": "Dapagliflozin - Human",
+          "IsDefault": true,
+          "ExtendedProperties": [
+            {
+              "Name": "Species",
+              "Value": "Human",
+              "Type": "String"
+            },
+            {
+              "Name": "Disease State",
+              "Value": "Healthy",
+              "Type": "String"
+            }
+          ],
+          "ParameterValues": [
+            {
+              "Path": "Dapagliflozin|Blood/Plasma concentration ratio",
+              "Value": 0.88,
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'PI full  (perm)' on 2019-08-23 15:34"
+              }
+            },
+            {
+              "Path": "Dapagliflozin|logP (veg.oil/water)",
+              "Value": 2.0831076805,
+              "Dimension": "Log Units",
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'PI full  (perm)' on 2019-08-23 15:34"
+              }
+            }
+          ]
+        }
       ]
     }
   ],
@@ -2870,25 +2910,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Dapagliflozin|Blood/Plasma concentration ratio",
-          "Value": 0.88,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI full  (perm)' on 2019-08-23 15:34"
-          }
-        },
-        {
-          "Path": "Dapagliflozin|logP (veg.oil/water)",
-          "Value": 2.0831076805,
-          "Unit": "Log Units",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI full  (perm)' on 2019-08-23 15:34"
-          }
-        },
-        {
           "Path": "Events|IV 0.08 mg|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 1.0,
           "Unit": "min",
@@ -3016,6 +3037,12 @@
           "Title": "IV 0.08 mg (perm)",
           "OriginText": "Dapagliflozin\nIV 0.08 mg (perm)\n2019-08-05 17:52"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Dapagliflozin",
+          "OverwriteParameterSetName": "Dapagliflozin - Human"
+        }
       ]
     },
     {
@@ -3083,25 +3110,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Dapagliflozin|Blood/Plasma concentration ratio",
-          "Value": 0.88,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI full  (perm)' on 2019-08-23 15:34"
-          }
-        },
-        {
-          "Path": "Dapagliflozin|logP (veg.oil/water)",
-          "Value": 2.0831076805,
-          "Unit": "Log Units",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI full  (perm)' on 2019-08-23 15:34"
-          }
-        },
         {
           "Path": "Events|PO SD 10 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -3598,6 +3606,12 @@
           },
           "OriginText": "Dapagliflozin\nPO SD 10 mg (perm)\n2019-08-26 09:55"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Dapagliflozin",
+          "OverwriteParameterSetName": "Dapagliflozin - Human"
+        }
       ]
     },
     {
@@ -3667,25 +3681,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Dapagliflozin|Blood/Plasma concentration ratio",
-          "Value": 0.88,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI full  (perm)' on 2019-08-23 15:34"
-          }
-        },
-        {
-          "Path": "Dapagliflozin|logP (veg.oil/water)",
-          "Value": 2.0831076805,
-          "Unit": "Log Units",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI full  (perm)' on 2019-08-23 15:34"
-          }
-        },
         {
           "Path": "Events|PO SD 50 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -4150,6 +4145,12 @@
           },
           "OriginText": "Dapagliflozin\nPO SD 50 mg (perm)\n2019-08-26 10:09"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Dapagliflozin",
+          "OverwriteParameterSetName": "Dapagliflozin - Human"
+        }
       ]
     },
     {
@@ -4210,25 +4211,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Dapagliflozin|Blood/Plasma concentration ratio",
-          "Value": 0.88,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI full  (perm)' on 2019-08-23 15:34"
-          }
-        },
-        {
-          "Path": "Dapagliflozin|logP (veg.oil/water)",
-          "Value": 2.0831076805,
-          "Unit": "Log Units",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI full  (perm)' on 2019-08-23 15:34"
-          }
-        },
         {
           "Path": "Events|PO SD 2.5 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -4536,6 +4518,12 @@
           },
           "OriginText": "Dapagliflozin\nPO SD 2.5 mg (perm)\n2019-08-26 10:00"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Dapagliflozin",
+          "OverwriteParameterSetName": "Dapagliflozin - Human"
+        }
       ]
     },
     {
@@ -4595,25 +4583,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Dapagliflozin|Blood/Plasma concentration ratio",
-          "Value": 0.88,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI full  (perm)' on 2019-08-23 15:34"
-          }
-        },
-        {
-          "Path": "Dapagliflozin|logP (veg.oil/water)",
-          "Value": 2.0831076805,
-          "Unit": "Log Units",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI full  (perm)' on 2019-08-23 15:34"
-          }
-        },
         {
           "Path": "Events|PO SD 5 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -4894,6 +4863,12 @@
           },
           "OriginText": "Dapagliflozin\nPO SD 5 mg (perm)\n2019-08-26 10:06"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Dapagliflozin",
+          "OverwriteParameterSetName": "Dapagliflozin - Human"
+        }
       ]
     },
     {
@@ -4957,25 +4932,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Dapagliflozin|Blood/Plasma concentration ratio",
-          "Value": 0.88,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI full  (perm)' on 2019-08-23 15:34"
-          }
-        },
-        {
-          "Path": "Dapagliflozin|logP (veg.oil/water)",
-          "Value": 2.0831076805,
-          "Unit": "Log Units",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI full  (perm)' on 2019-08-23 15:34"
-          }
-        },
         {
           "Path": "Events|PO SD 20 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -5364,6 +5320,12 @@
           },
           "OriginText": "Dapagliflozin\nPO SD 20 mg (perm)\n2019-08-26 10:02"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Dapagliflozin",
+          "OverwriteParameterSetName": "Dapagliflozin - Human"
+        }
       ]
     },
     {
@@ -5424,25 +5386,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Dapagliflozin|Blood/Plasma concentration ratio",
-          "Value": 0.88,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI full  (perm)' on 2019-08-23 15:34"
-          }
-        },
-        {
-          "Path": "Dapagliflozin|logP (veg.oil/water)",
-          "Value": 2.0831076805,
-          "Unit": "Log Units",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI full  (perm)' on 2019-08-23 15:34"
-          }
-        },
         {
           "Path": "Events|PO SD 100 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -5750,6 +5693,12 @@
           },
           "OriginText": "Dapagliflozin\nPO SD 100 mg (perm)\n2019-08-26 09:58"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Dapagliflozin",
+          "OverwriteParameterSetName": "Dapagliflozin - Human"
+        }
       ]
     },
     {
@@ -5809,25 +5758,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Dapagliflozin|Blood/Plasma concentration ratio",
-          "Value": 0.88,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI full  (perm)' on 2019-08-23 15:34"
-          }
-        },
-        {
-          "Path": "Dapagliflozin|logP (veg.oil/water)",
-          "Value": 2.0831076805,
-          "Unit": "Log Units",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI full  (perm)' on 2019-08-23 15:34"
-          }
-        },
         {
           "Path": "Events|PO SD 250 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -6108,6 +6038,12 @@
           },
           "OriginText": "Dapagliflozin\nPO SD 250 mg (perm)\n2019-08-26 10:04"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Dapagliflozin",
+          "OverwriteParameterSetName": "Dapagliflozin - Human"
+        }
       ]
     },
     {
@@ -6167,25 +6103,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Dapagliflozin|Blood/Plasma concentration ratio",
-          "Value": 0.88,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI full  (perm)' on 2019-08-23 15:34"
-          }
-        },
-        {
-          "Path": "Dapagliflozin|logP (veg.oil/water)",
-          "Value": 2.0831076805,
-          "Unit": "Log Units",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI full  (perm)' on 2019-08-23 15:34"
-          }
-        },
         {
           "Path": "Events|PO SD 500 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -6466,6 +6383,12 @@
           },
           "OriginText": "Dapagliflozin\nPO SD 500 mg (perm)\n2019-08-26 10:17"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Dapagliflozin",
+          "OverwriteParameterSetName": "Dapagliflozin - Human"
+        }
       ]
     },
     {
@@ -6524,21 +6447,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Dapagliflozin|Blood/Plasma concentration ratio",
-          "Value": 0.88,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Dapagliflozin|logP (veg.oil/water)",
-          "Value": 2.0831076805,
-          "Unit": "Log Units",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
         {
           "Path": "Events|PO SD 5 mg|IC tablet (Chang 2015)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -6741,6 +6649,12 @@
           "Title": "PO SD 5 mg IR tablet (perm)",
           "OriginText": "Dapagliflozin\nPO SD 5 mg IR tablet (perm)\n2019-08-06 14:59"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Dapagliflozin",
+          "OverwriteParameterSetName": "Dapagliflozin - Human"
+        }
       ]
     },
     {
@@ -6799,21 +6713,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Dapagliflozin|Blood/Plasma concentration ratio",
-          "Value": 0.88,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Dapagliflozin|logP (veg.oil/water)",
-          "Value": 2.0831076805,
-          "Unit": "Log Units",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
         {
           "Path": "Events|PO SD 250 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -7037,6 +6936,12 @@
           "Title": "PO SD 250 mg fed (perm)",
           "OriginText": "Dapagliflozin\nPO SD 250 mg fed (perm)\n2019-08-06 14:47"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Dapagliflozin",
+          "OverwriteParameterSetName": "Dapagliflozin - Human"
+        }
       ]
     },
     {
@@ -7095,21 +7000,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Dapagliflozin|Blood/Plasma concentration ratio",
-          "Value": 0.88,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Dapagliflozin|logP (veg.oil/water)",
-          "Value": 2.0831076805,
-          "Unit": "Log Units",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
         {
           "Path": "Events|PO SD 10 mg|IC tablet (Chang 2015)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -7312,6 +7202,12 @@
           "Title": "PO SD 10 mg IR tablet (perm)",
           "OriginText": "Dapagliflozin\nPO SD 10 mg IR tablet (perm)\n2019-08-07 13:04"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Dapagliflozin",
+          "OverwriteParameterSetName": "Dapagliflozin - Human"
+        }
       ]
     },
     {
@@ -7371,21 +7267,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Dapagliflozin|Blood/Plasma concentration ratio",
-          "Value": 0.88,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Dapagliflozin|logP (veg.oil/water)",
-          "Value": 2.0831076805,
-          "Unit": "Log Units",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
         {
           "Path": "Events|PO MD 10 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -7694,6 +7575,12 @@
           "Title": "PO MD 10 mg (perm)",
           "OriginText": "Dapagliflozin\nPO MD 10 mg (perm)\n2019-08-19 17:37"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Dapagliflozin",
+          "OverwriteParameterSetName": "Dapagliflozin - Human"
+        }
       ]
     },
     {
@@ -7753,21 +7640,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Dapagliflozin|Blood/Plasma concentration ratio",
-          "Value": 0.88,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Dapagliflozin|logP (veg.oil/water)",
-          "Value": 2.0831076805,
-          "Unit": "Log Units",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
         {
           "Path": "Events|PO MD 100 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -8076,6 +7948,12 @@
           "Title": "PO MD 100 mg (perm)",
           "OriginText": "Dapagliflozin\nPO MD 100 mg (perm)\n2019-08-19 17:43"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Dapagliflozin",
+          "OverwriteParameterSetName": "Dapagliflozin - Human"
+        }
       ]
     },
     {
@@ -8135,21 +8013,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Dapagliflozin|Blood/Plasma concentration ratio",
-          "Value": 0.88,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Dapagliflozin|logP (veg.oil/water)",
-          "Value": 2.0831076805,
-          "Unit": "Log Units",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
         {
           "Path": "Events|PO MD 2.5 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -8458,6 +8321,12 @@
           "Title": "PO MD 2.5 mg (perm)",
           "OriginText": "Dapagliflozin\nPO MD 2.5 mg (perm)\n2019-08-19 17:44"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Dapagliflozin",
+          "OverwriteParameterSetName": "Dapagliflozin - Human"
+        }
       ]
     },
     {
@@ -8517,21 +8386,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Dapagliflozin|Blood/Plasma concentration ratio",
-          "Value": 0.88,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Dapagliflozin|logP (veg.oil/water)",
-          "Value": 2.0831076805,
-          "Unit": "Log Units",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
         {
           "Path": "Events|PO MD 20 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -8840,6 +8694,12 @@
           "Title": "PO MD 20 mg (perm)",
           "OriginText": "Dapagliflozin\nPO MD 20 mg (perm)\n2019-08-19 17:47"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Dapagliflozin",
+          "OverwriteParameterSetName": "Dapagliflozin - Human"
+        }
       ]
     },
     {
@@ -8899,21 +8759,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Dapagliflozin|Blood/Plasma concentration ratio",
-          "Value": 0.88,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Dapagliflozin|logP (veg.oil/water)",
-          "Value": 2.0831076805,
-          "Unit": "Log Units",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
         {
           "Path": "Events|PO MD 50 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -9221,6 +9066,12 @@
           },
           "Title": "PO MD 50 mg (perm)",
           "OriginText": "Dapagliflozin\nPO MD 50 mg (perm)\n2019-08-19 17:46"
+        }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Dapagliflozin",
+          "OverwriteParameterSetName": "Dapagliflozin - Human"
         }
       ]
     }
