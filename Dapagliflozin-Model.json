@@ -2297,60 +2297,28 @@
   "Protocols": [
     {
       "Name": "IV 0.08 mg",
+      "ApplicationType": "Intravenous",
       "DosingInterval": "Single",
-      "Schemas": [
+      "Parameters": [
         {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Intravenous",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 0.08,
-                  "Unit": "mg",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "Infusion time",
-                  "Value": 1.0,
-                  "Unit": "min",
-                  "ValueOrigin": {}
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 1.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0,
-              "ValueOrigin": {}
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {}
-            }
-          ]
+          "Name": "Start time",
+          "Value": 1.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "InputDose",
+          "Value": 0.08,
+          "Unit": "mg",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "Infusion time",
+          "Value": 1.0,
+          "Unit": "min",
+          "ValueOrigin": {}
         }
-      ],
-      "TimeUnit": "h"
+      ]
     },
     {
       "Name": "PO SD 50 mg",
@@ -2506,6 +2474,7 @@
       "Name": "PO SD 250 mg",
       "ApplicationType": "Oral",
       "DosingInterval": "Single",
+      "EventKey": "Event",
       "Parameters": [
         {
           "Name": "Start time",
@@ -2554,303 +2523,168 @@
     },
     {
       "Name": "PO MD 2.5 mg",
-      "DosingInterval": "Single",
-      "Schemas": [
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_24",
+      "Parameters": [
         {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 2.5,
-                  "Unit": "mg",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {}
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {}
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 14.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "InputDose",
+          "Value": 2.5,
+          "Unit": "mg",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "End time",
+          "Value": 313.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
-      ],
-      "TimeUnit": "h"
+      ]
     },
     {
       "Name": "PO MD 10 mg",
-      "DosingInterval": "Single",
-      "Schemas": [
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_24",
+      "Parameters": [
         {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 10.0,
-                  "Unit": "mg",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {}
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {}
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 14.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "InputDose",
+          "Value": 10.0,
+          "Unit": "mg",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "End time",
+          "Value": 313.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
-      ],
-      "TimeUnit": "h"
+      ]
     },
     {
       "Name": "PO MD 20 mg",
-      "DosingInterval": "Single",
-      "Schemas": [
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_24",
+      "Parameters": [
         {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 20.0,
-                  "Unit": "mg",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {}
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {}
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 14.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "InputDose",
+          "Value": 20.0,
+          "Unit": "mg",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "End time",
+          "Value": 313.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
-      ],
-      "TimeUnit": "h"
+      ]
     },
     {
       "Name": "PO MD 50 mg",
-      "DosingInterval": "Single",
-      "Schemas": [
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_24",
+      "Parameters": [
         {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 50.0,
-                  "Unit": "mg",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {}
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {}
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 14.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "InputDose",
+          "Value": 50.0,
+          "Unit": "mg",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "End time",
+          "Value": 313.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
-      ],
-      "TimeUnit": "h"
+      ]
     },
     {
       "Name": "PO MD 100 mg",
-      "DosingInterval": "Single",
-      "Schemas": [
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_24",
+      "Parameters": [
         {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 100.0,
-                  "Unit": "mg",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {}
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {}
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 14.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "InputDose",
+          "Value": 100.0,
+          "Unit": "mg",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "End time",
+          "Value": 313.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
-      ],
-      "TimeUnit": "h"
+      ]
     }
   ],
   "Events": [
@@ -6781,17 +6615,13 @@
                 "Name": "Dissolved",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "breakfast",
+                "Key": "Event"
+              }
             ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "breakfast",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
           }
         }
       ],
